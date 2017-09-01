@@ -1,0 +1,13 @@
+[package]
+name = "process_utils"
+version = "0.1.0"
+authors = ["Chris Holcombe <xfactor973@gmail.com>"]
+description = "Simple utilites to help when working with linux processes"
+documentation = "https://docs.rs/process_utils"
+repository = "https://github.com/cholcombe973/process_utils"
+license = "MIT"
+
+[dependencies]
+nix = "~0.9"
+procinfo = "~0.4"
+log = "~0.3"
